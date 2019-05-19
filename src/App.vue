@@ -16,12 +16,21 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#add-blog *{
+  box-sizing: border-box;
+}
+#add-blog *{
+  margin: 20px, auto;
+  max-width: 600px;
+  padding: 20px;
+}
+label{
+  display: block;
+  margin: 20px, 0, 10px;
+}
+input[text="text"], textarea, select{
+  display: block;
+  width: 100%;
+  padding: 8px;
 }
 </style>
