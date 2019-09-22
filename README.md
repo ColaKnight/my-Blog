@@ -2,7 +2,7 @@
 
 > Vinter
 
-Vue
+基于Vue开发的一款个人博客系统
 
 ## Build Setup
 
