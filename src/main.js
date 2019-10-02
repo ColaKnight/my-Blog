@@ -9,6 +9,15 @@ Vue.config.productionTip = false
 
 Vue.use(VueResource)
 
+/**
+ *  自定义指令
+ */
+Vue.direvtive('rainbow', {
+  bind(el, binding, vnode){
+    el.style.color = "#" + Math.random().toString(16).slice(2, 8);
+  }
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
